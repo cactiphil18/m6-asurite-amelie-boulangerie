@@ -3,8 +3,13 @@
     line-height: 1.5;
 }
 
+.content {
+    max-width: 1000px;
+    margin: auto;
+}
+
 header {
-    width: 1145px;
+    width: 1000px;
     height: 150px;
     text-align: left;
     background-image: url("images/bowl.jpg");
@@ -12,17 +17,15 @@ header {
     background-repeat: no-repeat;
     background-color: #141a1a;
     color: white;
-
 }
 
-body{
+body {
     background-color: #F28095;
-    margin-top: 0;
-    margin-left: 0;
-    margin-right: 20px;
+    margin: 0;
     padding-left: 25px;
-    padding-right: 100px;
-    padding-bottom: 25px;
+    padding-right: 25px;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 h1 {
@@ -35,7 +38,7 @@ h1 {
 }
 
 #grid-container {
-    width: 1145px;
+    width: 1000px;
     text-align: left;
     background-color: #fdfdfd;
     display: grid;
@@ -84,13 +87,13 @@ main img {
 
 main p { 
     display: inline-block;
-     width: 49%;
+     width: 58%;
      margin-left: 32px;
 }
 
 main ul {
     display: inline-block;
-    width: 50%;
+    width: 55%;
     margin-left: 16px;
 }
 
@@ -100,7 +103,7 @@ address {
 }
 
 footer {
-    width: 1145px;
+    width: 1000px;
     font-style: italic;
     text-align: center;
     background-color: #afaeb4;
