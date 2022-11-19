@@ -60,6 +60,13 @@ table {
     font-size: 16px;
 }
 
+<<<<<<< HEAD
+=======
+.content {
+    max-width: 1000px;
+    margin: auto;
+}
+>>>>>>> 7fe8b85b22743665f987478d72601bd691a4ce4a
 
 header {
     width: 1000px;
@@ -72,7 +79,20 @@ header {
     color: white;
 }
 
+<<<<<<< HEAD
 header h1 {
+=======
+body {
+    background-color: #F28095;
+    margin: 0;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+h1 {
+>>>>>>> 7fe8b85b22743665f987478d72601bd691a4ce4a
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 0;
@@ -88,9 +108,19 @@ header h1 {
     margin-block-start: 0;
 }
 
+<<<<<<< HEAD
 .content {
     max-width: 1000px;
     margin: auto;
+=======
+#grid-container {
+    width: 1000px;
+    text-align: left;
+    background-color: #fdfdfd;
+    display: grid;
+    grid-template-columns: 184px 1fr;
+    gap: 0 16px;
+>>>>>>> 7fe8b85b22743665f987478d72601bd691a4ce4a
 }
 
 h2 {
@@ -180,6 +210,7 @@ main img {
 
 main p { 
     display: inline-block;
+<<<<<<< HEAD
     width: 58%;
     font-family: Verdana, Arial, sans-serif;
     margin-block-end: 1em;
@@ -189,6 +220,10 @@ main p {
     margin-inline-end: 0px;
     line-height: 1.5;
     margin-left: 32px;
+=======
+     width: 58%;
+     margin-left: 32px;
+>>>>>>> 7fe8b85b22743665f987478d72601bd691a4ce4a
 }
 
 main ul {
